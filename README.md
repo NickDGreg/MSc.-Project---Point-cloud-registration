@@ -1,6 +1,8 @@
 # MSc. Project Description
 The aim is to localise a robotic surgical instrument within a patients aorta in real-time during a cardiac procedure. The instrument generates a point cloud describing the x,y,z locations that it has moved through but the coordinate axes are not intially aligned with the coordinate axes of the scan. Therefore the point cloud needs to be aligned with the point cloud of the scan.
 
+The repositories show some of the code used in the project.
+
 The plot below shows an example aorta and full trajectory with the colour of the trajectory showing the time the point was collected. During the procedure we will not have the full trajectory until the end. So registration is sequentially attempted and improved with subsets of increasing size.
 
 ![Aorta and trajectory](project_description_images/aorta_and_traj.png)
