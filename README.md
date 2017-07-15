@@ -18,7 +18,7 @@ This can be done cheaply and then the registration can actually be performed at 
 
 Below is an example plot of the resulting Bayesian optimisation prediction. The pink square is the true initial alignment position, and the colour goes from blue for lowest error to red maximum error.
 
-![Bayesian optimisation predictions](project_description_images/bo_predictions.png)
+![Bayesian optimisation predictions](project_description_images/BO_predictions.png)
 
 The surrogate model learns appropriate locations to initialise the registration, as can be seen from the low error area (blue) being located near to the true location (pink square).
 
